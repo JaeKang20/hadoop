@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+}
+
+group 'com.example'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.apache.hadoop:hadoop-common:3.3.1'
+    implementation 'org.apache.hadoop:hadoop-mapreduce-client-core:3.3.1'
+}
+
+jar {
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+}

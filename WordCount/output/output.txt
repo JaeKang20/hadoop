@@ -1,0 +1,4 @@
+Hadoop	1
+Hello	3
+Java	1
+world	1
